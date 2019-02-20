@@ -1,0 +1,4 @@
+node{
+stage('build'){echo 'i am chandu'
+}
+}
