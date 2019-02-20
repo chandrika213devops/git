@@ -1,0 +1,6 @@
+node{
+stage ('one'){ echo 'this is SVN'
+}
+stage ('two'){ echo 'thanks'
+}
+}
