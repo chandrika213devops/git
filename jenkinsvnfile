@@ -1,0 +1,12 @@
+node{
+stage ('one'){ echo ' this is SVN'
+}
+stage ('two'){ input 'do you want to proceed?'
+}
+stage('three'){ when {
+not{branch "master"
+}
+yes{echo 'hello'
+}
+}
+}
